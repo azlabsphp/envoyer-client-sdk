@@ -1,0 +1,31 @@
+{
+    "name": "drewlabs/envoyer-client",
+    "description": "Driver for sending message using envoyer REST api interface",
+    "type": "library",
+    "require": {
+        "php": "^7.0|^8.0",
+        "drewlabs/envoyer-contracts": "^0.2.4",
+        "drewlabs/psr18": "^0.4.0"
+    },
+    "require-dev": {
+        "drewlabs/envoyer": "^0.2.4",
+        "phpunit/phpunit": ">=6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Drewlabs\\Envoyer\\Drivers\\Envoyer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "azandrew-sidoine",
+            "email": "azandrewdevelopper@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}

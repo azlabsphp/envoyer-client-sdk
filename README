@@ -1,0 +1,49 @@
+# Envoyer - NGHCORP driver
+
+This package provide `drewlabs/envoyer` client for sending message through a deployed envoyer server instance.
+
+## Usage
+
+The library offer 2 differents drivers for handling short messages and mail sending operations.
+
+- Sending emails
+
+```php
+use Drewlabs\Envoyer\Drivers\Envoyer\Drivers\Mail as MailDriver;
+use Drewlabs\Envoyer\Mail;
+
+// Register package using composer autoloader
+// require __DIR__ . '/../vendor/autoload.php';
+
+$driver = MailDriver::new('http://127.0.0.1:8888/')
+    ->withCallbackUrl('http://127.0.0.1:8000/api/callback')
+    ->withAccessToken('<Access TOken>');
+
+$result = $driver->sendRequest(
+    Mail::new()
+    ->from('my-email@example.tg')
+    ->subject('Mail subject')
+    ->to('azandrewdevelopper@gmail.com')
+    ->content('...'));
+```
+
+- Sending short messages
+
+
+```php
+use Drewlabs\Envoyer\Drivers\Envoyer\Drivers\ShortMessage;
+use Drewlabs\Envoyer\Message;
+
+// Register package using composer autoloader
+// require __DIR__ . '/../vendor/autoload.php';
+
+$driver = ShortMessage::new('http://127.0.0.1:8888/')
+    ->withCallbackUrl('http://127.0.0.1:8000/api/callback')
+    ->withAccessToken('<ACCESS_TOKEN>');
+
+$result = $driver->sendRequest(
+    Message::new()
+    ->from('<SENDER_ID_ALPHA_NUM>')
+    ->to('<PHONE_NUMBER>')
+    ->content('<MESSAGE>'));
+```
