@@ -5,7 +5,7 @@
     "require": {
         "php": "^7.0|^8.0",
         "drewlabs/envoyer-contracts": "^0.2.4",
-        "drewlabs/psr18": "^0.4.0"
+        "drewlabs/psr18": "^0.4.2"
     },
     "require-dev": {
         "drewlabs/envoyer": "^0.2.4",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6109e85ac1390922ce26c0fc2ae72c99",
+    "content-hash": "314b7288a60fdbc76e9441a3f239cacb",
     "packages": [
         {
             "name": "drewlabs/curl-client",
@@ -94,20 +94,20 @@
         },
         {
             "name": "drewlabs/psr18",
-            "version": "v0.4.1",
+            "version": "v0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/azandrew-sidoine/curl-psr18.git",
-                "reference": "0580654f4c572021c20558bf8a01b390001cd157"
+                "reference": "3b970ad8ff8880aaf50623f37f75d2981fc0c1e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/azandrew-sidoine/curl-psr18/zipball/0580654f4c572021c20558bf8a01b390001cd157",
-                "reference": "0580654f4c572021c20558bf8a01b390001cd157",
+                "url": "https://api.github.com/repos/azandrew-sidoine/curl-psr18/zipball/3b970ad8ff8880aaf50623f37f75d2981fc0c1e5",
+                "reference": "3b970ad8ff8880aaf50623f37f75d2981fc0c1e5",
                 "shasum": ""
             },
             "require": {
-                "drewlabs/curl-client": "^0.3.0|^0.4.0",
+                "drewlabs/curl-client": "^0.4.0",
                 "drewlabs/psr7": "^0.1.5|^0.2.0",
                 "psr/http-client": "^1.0"
             },
@@ -134,22 +134,22 @@
             "description": "PSR18 compatible http client based on PHP curl client library",
             "support": {
                 "issues": "https://github.com/azandrew-sidoine/curl-psr18/issues",
-                "source": "https://github.com/azandrew-sidoine/curl-psr18/tree/v0.4.1"
+                "source": "https://github.com/azandrew-sidoine/curl-psr18/tree/v0.4.2"
             },
-            "time": "2024-08-14T18:03:52+00:00"
+            "time": "2024-08-16T01:12:57+00:00"
         },
         {
             "name": "drewlabs/psr7",
-            "version": "v0.2.3",
+            "version": "v0.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/azandrew-sidoine/drewlabs-psr7.git",
-                "reference": "7f6d15979ff288717d574eae6c69a2ec72a56f26"
+                "reference": "bf157268ebabe760445b2aa9194bb7724614f99e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/azandrew-sidoine/drewlabs-psr7/zipball/7f6d15979ff288717d574eae6c69a2ec72a56f26",
-                "reference": "7f6d15979ff288717d574eae6c69a2ec72a56f26",
+                "url": "https://api.github.com/repos/azandrew-sidoine/drewlabs-psr7/zipball/bf157268ebabe760445b2aa9194bb7724614f99e",
+                "reference": "bf157268ebabe760445b2aa9194bb7724614f99e",
                 "shasum": ""
             },
             "require": {
@@ -186,9 +186,9 @@
             ],
             "support": {
                 "issues": "https://github.com/azandrew-sidoine/drewlabs-psr7/issues",
-                "source": "https://github.com/azandrew-sidoine/drewlabs-psr7/tree/v0.2.3"
+                "source": "https://github.com/azandrew-sidoine/drewlabs-psr7/tree/v0.2.4"
             },
-            "time": "2024-08-14T17:25:29+00:00"
+            "time": "2024-08-16T01:10:45+00:00"
         },
         {
             "name": "drewlabs/psr7-stream",
